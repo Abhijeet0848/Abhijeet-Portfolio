@@ -2,9 +2,9 @@
   "name": "abhijeet-portfolio",
   "version": "1.0.0",
   "description": "Portfolio of Abhijeet Kumar Gautam",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.dev.js",
+    "dev": "node server.dev.js"
   },
   "keywords": [],
   "author": "Abhijeet Kumar Gautam",

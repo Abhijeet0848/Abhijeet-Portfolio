@@ -25,6 +25,13 @@ module.exports = async (req, res) => {
     return res.status(400).json({ error: 'Please provide all fields (name, email, message).' });
   }
 
+  if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+    return res.status(500).json({
+      success: false,
+      error: 'Email environment variables (EMAIL_USER / EMAIL_PASS) are not configured in Vercel settings.'
+    });
+  }
+
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
