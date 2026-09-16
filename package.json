@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio of Abhijeet Kumar Gautam",
   "scripts": {
+    "build": "echo 'Static portfolio ready'",
     "start": "node server.dev.js",
     "dev": "node server.dev.js"
   },
