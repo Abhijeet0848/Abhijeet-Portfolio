@@ -2,10 +2,11 @@
   "name": "abhijeet-portfolio",
   "version": "1.0.0",
   "description": "Portfolio of Abhijeet Kumar Gautam",
+  "main": "index.js",
   "scripts": {
-    "build": "echo 'Static portfolio ready'",
-    "start": "node server.dev.js",
-    "dev": "node server.dev.js"
+    "build": "echo 'Build complete'",
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "keywords": [],
   "author": "Abhijeet Kumar Gautam",
