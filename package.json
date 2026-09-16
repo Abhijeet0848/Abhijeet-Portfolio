@@ -1,13 +1,13 @@
 {
   "name": "abhijeet-portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Portfolio of Abhijeet Kumar Gautam",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abhijeet Kumar Gautam",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",
