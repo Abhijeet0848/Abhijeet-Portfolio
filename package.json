@@ -2,19 +2,7 @@
   "name": "abhijeet-portfolio",
   "version": "1.0.0",
   "description": "Portfolio of Abhijeet Kumar Gautam",
-  "main": "index.js",
-  "scripts": {
-    "build": "echo 'Build complete'",
-    "start": "node index.js",
-    "dev": "node index.js"
-  },
-  "keywords": [],
-  "author": "Abhijeet Kumar Gautam",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "nodemailer": "^9.0.5"
+    "nodemailer": "^6.9.16"
   }
 }
